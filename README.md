@@ -21,8 +21,8 @@ RESTful application for managing Task list. All request and response in JSON for
 - To make Task completed send request to /tasks/complete/{taskId} using Http.POST method, body can be empty
 - To update Task send request to /tasks/{taskId} using Http.PUT method with body like this {"description":"Need to fix my computer","completed":true}
 - To delete Task send request to /tasks/{taskId} using Http.DELETE, body can be empty
-- To get all completed tasks send request to /tasks/completed using Http.GET
-- To get all uncompleted tasks send request to /tasks/uncompleted using Http.GET
+- To get all completed Tasks send request to /tasks/completed using Http.GET
+- To get all uncompleted Tasks send request to /tasks/uncompleted using Http.GET
 
 ## Technologies
 - Spring(Web, Security, MVC)
