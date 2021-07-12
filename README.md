@@ -14,7 +14,7 @@ RESTful application for managing Task list. All request and response in JSON for
 ## How to test by  API Collaboration Tools:
 - To register new User send request to /register using Http.POST method  with body like this {"login":"user","password":"1234","repeatPassword":"1234"}
   Example - https://prnt.sc/1ab5xd4
-- Next step you need to enable authentication by choosing authentication tab and set type to basic auth. Then enter your login and password
+- Next step you need to enable authorization by choosing authorization tab and set type to basic auth. Then enter your login and password
   Example - https://prnt.sc/1ab85mp
 - To create Task send request to /tasks using Http.POST method with body like this {"description":"Need to fix my computer"}
 - To get All Tasks send request to /tasks using Http.GET method
